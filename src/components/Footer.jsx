@@ -6,8 +6,7 @@ const Footer = () => {
       <div className="content px-10 flex justify-between items-center">
         <div className="w-1/3">
           <h1 className="text-6xl">
-            EYE- <br />
-            OPENING
+            EYE- <br />OPENING
           </h1>
         </div>
         <div className="w-1/2">
