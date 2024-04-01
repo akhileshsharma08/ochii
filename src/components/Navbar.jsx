@@ -9,12 +9,12 @@ const Navbar = () => {
       </div>
       <ul className=" menulist flex justify-center items-center gap-5">
         <li>Services</li>
-        <li>Our Works </li>
-        <li>About Us</li>
-        <li>Insights</li>
+        <li>Works </li>
+        <li>About </li>
+        <li className="md:mr-0 mr-4">Insights</li>
       </ul>
 
-      <h5>Contact us</h5>
+      <h5>Contact </h5>
     </div>
   );
 };

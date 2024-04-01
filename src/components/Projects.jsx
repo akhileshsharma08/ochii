@@ -11,13 +11,13 @@ const Projects = () => {
       <h1 className="text-6xl pb-6 border-b text-zinc-800 border-gray-400">
         Featured projects
       </h1>
-      <div className="proContainer flex justify-center items-center gap-4 p-4">
+      <div className="proContainer flex md:flex-row flex-col justify-center items-center gap-4 p-4">
         <motion.div
           whileHover={{
             scale: 0.9,
             transition: { duration: 0.2 },
           }}
-          className="relative proj1 w-1/2 h-[70vh] rounded-xl bg-red-500 overflow-hidden "
+          className="relative proj1 md:w-1/2 w-full h-[70vh] rounded-xl  overflow-hidden "
         >
           <div className="img w-full h-full">
             <img className="w-full h-full bg-cover" src={fyde} alt="fyde" />
@@ -31,18 +31,18 @@ const Projects = () => {
         <motion.div  whileHover={{
             scale: 0.9,
             transition: { duration: 0.2 },
-          }} className="proj1 w-1/2 h-[70vh] rounded-xl overflow-hidden">
+          }} className="proj1 md:w-1/2 w-full h-[70vh] rounded-xl overflow-hidden">
           <div className="img w-full h-full">
             <img className="w-full h-full bg-cover" src={vise} alt="vise" />
           </div>
         </motion.div>
       </div>
 
-      <div className="proContainer flex justify-center items-center gap-4 p-4">
+      <div className="proContainer flex md:flex-row flex-col justify-center items-center gap-4 p-4">
         <motion.div  whileHover={{
             scale: 0.9,
             transition: { duration: 0.2 },
-          }} className="proj1 w-1/2 h-[70vh] rounded-xl bg-red-500">
+          }} className="proj1 md:w-1/2 w-full h-[70vh] rounded-xl ">
           <div className="img w-full h-full">
             <img className="w-full h-full bg-cover" src={trawa} alt="trawa" />
           </div>
@@ -50,7 +50,7 @@ const Projects = () => {
         <motion.div  whileHover={{
             scale: 0.9,
             transition: { duration: 0.2 },
-          }} className="proj1 w-1/2 h-[70vh] rounded-xl overflow-hidden">
+          }} className="proj1 md:w-1/2 w-full h-[70vh] rounded-xl overflow-hidden">
           <div className="img w-full h-full">
             <img className="w-full h-full bg-cover" src={pb} alt="pb" />
           </div>

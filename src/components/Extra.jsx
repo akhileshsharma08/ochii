@@ -15,14 +15,14 @@ const Extra = () => {
     });
   
   return (
-    <div className='w-full  h-screen bg-[#CDEA68] pb-20  relative'>
-        <div data-scroll data-scroll-speed=".7" className="textContainer text-center py-6">
-        <h1 className='text-[10rem] leading-none tracking-tighter uppercase font-semibold'>Get Ready</h1>
-        <h1 className='text-[10rem] leading-none tracking-tighter uppercase  font-semibold'> to start</h1>
-        <h1 className='text-[10rem] leading-none tracking-tighter uppercase  font-semibold'>The Project ?</h1>
+    <div className='w-full  md:h-screen h-[75vh] bg-[#CDEA68]  pb-20  relative'>
+        <div data-scroll data-scroll-speed=".7" className=" md:text-[10rem] text-6xl textContainer text-center py-6">
+        <h1 className=' leading-none tracking-tighter uppercase font-semibold'>Get Ready</h1>
+        <h1 className=' leading-none tracking-tighter uppercase  font-semibold'> to start</h1>
+        <h1 className=' leading-none tracking-tighter uppercase  font-semibold'>The Project ?</h1>
         <div className="flex justify-center flex-col items-center">
-           <h1 className='w-1/4 py-2 bg-zinc-900 text-zinc-100  uppercase text-lg rounded-full border border-zinc-900'>start the project</h1>
-        <h1 className='w-1/4 py-2 my-2 text-lg rounded-full border border-zinc-900'>hello@ochii.design</h1>
+           <h1 className='md:w-1/4 w-2/3 py-2 bg-zinc-900 text-zinc-100  uppercase text-lg rounded-full border border-zinc-900'>start the project</h1>
+        <h1 className='md:w-1/4 w-2/3 py-2 my-2 text-lg rounded-full border border-zinc-900'>hello@ochii.design</h1>
         
         </div>
         
